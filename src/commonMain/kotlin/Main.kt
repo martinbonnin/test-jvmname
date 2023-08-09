@@ -2,7 +2,5 @@
 
 import kotlin.jvm.JvmName
 
-
-fun main() {
-    println("hello")
-}
+@JvmName("testName")
+public expect fun example()
